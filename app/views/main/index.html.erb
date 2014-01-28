@@ -1,1 +1,7 @@
-<h1>Index</h1>
+<% if user_signed_in? %>
+  <div id='app' data-user-id='<%= current_user.id %>'
+                data-user-name='<%= current_user.email %>'/>
+<% else %>
+  <h1>Welcome to brewjudge.io!</h1>
+<% end %>
+
