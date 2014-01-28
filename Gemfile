@@ -38,6 +38,7 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'guard-rspec', require: false
   gem 'guard-cucumber', require: false
+  gem 'guard-livereload', require: false
   gem 'terminal-notifier-guard', require: false
   gem 'database_cleaner', require: false
   gem 'pry-rails'
