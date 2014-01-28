@@ -33,6 +33,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'devise'
+
 group :development, :test do
   gem 'rspec-rails', require: false
   gem 'cucumber-rails', require: false
@@ -42,6 +44,7 @@ group :development, :test do
   gem 'terminal-notifier-guard', require: false
   gem 'database_cleaner', require: false
   gem 'pry-rails'
+  gem 'letter_opener'
 end
 
 # Use ActiveModel has_secure_password
