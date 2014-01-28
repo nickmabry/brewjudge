@@ -34,6 +34,7 @@ group :doc do
 end
 
 gem 'devise'
+gem 'brewery_db'
 
 group :development, :test do
   gem 'rspec-rails', require: false
